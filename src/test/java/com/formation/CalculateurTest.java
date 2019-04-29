@@ -20,7 +20,7 @@ public class CalculateurTest {
 	}
 	
 	@Test
-	public void multTest() {
-		assertEquals(6, calcul.mult(2, 3));
+	public void divTest() {
+		assertEquals(5, calcul.div(15, 3));
 	}
 }
